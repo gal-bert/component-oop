@@ -8,17 +8,14 @@
 import UIKit
 
 class AnimatedButton: UIButton, Click {
-    
     override init(frame: CGRect) {
         super.init(frame: frame)
         backgroundColor = .systemBlue
         setTitleColor(.white, for: .normal)
     }
-    
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
     override open var isHighlighted: Bool {
         didSet {
             if isHighlighted {

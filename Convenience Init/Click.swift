@@ -14,10 +14,10 @@ protocol Click {
 extension Click where Self: AnimatedButton {
     
     func click() {
-        print("Clicked")
+    print("Clicked")
     }
     
     func unclick() {
-        print("Unclicked")
+    print("Unclicked")
     }
 }
