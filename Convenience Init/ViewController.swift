@@ -24,10 +24,8 @@ class ViewController: UIViewController {
             capsuleButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             capsuleButton.centerYAnchor.constraint(equalTo: view.centerYAnchor),
             capsuleButton.heightAnchor.constraint(equalToConstant: 50),
-            capsuleButton.widthAnchor.constraint(equalToConstant: 200),
+            capsuleButton.widthAnchor.constraint(equalToConstant: 200)
         ])
     }
-    
 
 }
-
